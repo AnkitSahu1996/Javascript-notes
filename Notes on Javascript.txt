@@ -1,0 +1,46 @@
+* Overview of Javascript
+js is a widely used, high level programming language
+It is primarily used for creating interactive and dynamic web pages.
+It is also used for building mobile apps.
+It is also used for creating interactive documents.
+It is also used for building server side applications.
+
+History of JS 
+Js created in 1995 by Brendan Eich at Netscape.
+Originally called Mocha, then Livescript and finally Javascript.
+leveraged popularity of java at the time. Js & Java both are completely different languages from each other.
+JS first introduced in browser - Netscape Navigator 2.0
+
+What is ECMAScript?
+ECMA - set standards for different version of js.
+ECMAScript (often referred to as simply "js") is a programming language specification standardized by the European Computer Manufacturers Association (ECMA).
+First published in 1997. - ECMAScript1
+ECMAScript defines the syntax, semantics, and features of the language, and specifies how it should be implemented.
+Major updates introduced in 2015 (ES6)
+latest version ECMAScript 2022 (ES13)
+
+What is Node JS?
+Node.js is an open-source, cross-platform js runtime environment that enables developers to run js code on the server side.
+
+Chrome - v8 js engine, Microsoft edge - Chakra, Mozilla Firefox - Gecko js engine.
+
+variables - var
+// = assignmental operator
+// naming convension of variables
+// 1. Resemblance
+// 2. variable name always starts with small or capital letter or _(underscore)
+// 3. snake_case_pattern, camelCasePattern, PascalCasePattern
+
+// Datatypes - Numbers, String, Boolean, null, Undefined, Object(Object & Arrays)
+
+Here null - first it has some value but after sometimes that particular value is removed from the variable. 
+Typeof null is called object
+
+whereas undefined is a variable in which any value is never assigned to that particular variable.
+
+//Case Sensitive a != A or 97 != 65
+//ASCII Code / Bytecode - (a-97) (A-65) ----- ASCII code means that every alphabet assigned some values to it in numbers because computers understands in binary code.
+//hello != Hello
+
+// Assignment Operators
+// % - Modulo Division & ** - Power
