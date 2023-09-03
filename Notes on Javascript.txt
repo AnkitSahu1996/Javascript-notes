@@ -44,3 +44,33 @@ whereas undefined is a variable in which any value is never assigned to that par
 
 // Assignment Operators
 // % - Modulo Division & ** - Power
+
+ctrl + Shift + J - directly open console in a browser
+ctrl + click - Open a file in a new tab in the replit or VS Code
+
+*Var - Introduced in ES5. 
+*Let & Const - Introduced in ES6. 
+
+Var function scoped hota hai or apne parent fnc mein kahi v use ho sakta hai.
+let braces scoped hota hai
+Var adds itself to the window object whereas let & const doesn't add itself to the window object.
+
+*Execution context mtlb jab v hum func chalayenge tab fnc apna ek khudka ek imaginary container bana lega jis mein uski 3 cheeze hogi:
+1. variables
+2. fnc inside that parent fnc
+3. lexical environment of that fnc - isse parent fnc child fnc ko use kar sakta hai lekin child fnc k element ko use nahi kar sakta hai.
+ye jo imaginary container hai isse he hum execution context kehte hai.
+
+Basically Execution context is a container where the function's code is executed and it's created whenever the function is called, it contains 3 things - variables, functions & lexical environment. 
+
+Lexical Environment ek chart hota hota hai jisme ye likha hota hai ki aapka particular fnc kin cheezo ko access kar sakta hai or kinko nahi, that means it holds it's scope and scope chain.
+
+*falsy values iss prakaar hai - 0, false, undefined, null, NaN, document.all
+
+*ForEach loop kabhi bhi by default aapke array mein change nahi karta hai wo aapko changes kar k deta hai array ki temporary copy par jiske wajah se array hamesha same rehta hai. 
+
+*First class function jiska matlab hota hai ki aap fnc ko use kar sakte ho as a value. Basically aise fncs jo normal value or variable ki tarah treat kare jaa sakte hai.
+
+*High Order Functions aisa fnc jo accept kar le ek aur fnc as a argument ya fir wo return kar de ek aur fnc.
+
+*Immdiately Invoked Function Expression (IIFE) - ye fnc ko turant chalane ka tarika hai, iski madad se private variables bhi bana sakte hai.
