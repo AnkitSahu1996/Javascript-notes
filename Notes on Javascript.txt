@@ -74,3 +74,11 @@ Lexical Environment ek chart hota hota hai jisme ye likha hota hai ki aapka part
 *High Order Functions aisa fnc jo accept kar le ek aur fnc as a argument ya fir wo return kar de ek aur fnc.
 
 *Immdiately Invoked Function Expression (IIFE) - ye fnc ko turant chalane ka tarika hai, iski madad se private variables bhi bana sakte hai.
+
+* Objects - It is an entity (properties and method) with a certain state and behavior. It contains many values. Object values are written as key:value pairs. Objects enable us to have multiple values of multiple data types to be stored under one name.
+There are majorly 3 ways to create an object in Javascript:
+1. by literal method
+2. by creating an instance of object directly (using new keyword)
+3. by using an object constructor (using new keyword)
+
+In object, key Datatypes present in string.
